@@ -1,0 +1,25 @@
+{
+  "name": "furry-engine",
+  "version": "1.0.0",
+  "description": "Twitter to elasticsearch through kafka",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BassemGhoniem/furry-engine.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BassemGhoniem/furry-engine/issues"
+  },
+  "homepage": "https://github.com/BassemGhoniem/furry-engine#readme",
+  "dependencies": {
+    "kafkajs": "^1.7.0",
+    "kafkajs-snappy": "^1.1.0",
+    "twitter": "^1.7.1"
+  }
+}
